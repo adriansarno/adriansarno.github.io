@@ -41,3 +41,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+img.portfolio_size{
+   width:200px;
+   height:160px;
+}
