@@ -1,2 +1,3 @@
-name: Adrian Sarno, Data Science
+name: Adrian Sarno, Data Scientist
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
