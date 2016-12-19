@@ -16,6 +16,6 @@ The site is automatically published every time you push to the master branch.
 The Blogging Platform is Jekyll:
 
 * [Jekyll](http://jekyllrb.com/docs/structure)
-* Tutorial: (http://jmcglone.com/guides/github-pages)
+* [Tutorial](http://jmcglone.com/guides/github-pages)
 
 
