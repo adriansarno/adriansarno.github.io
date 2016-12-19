@@ -10,10 +10,12 @@ The hosting is provided by Github.
 
 The Deployment Automation tool is called Github Pages.
 The site is automatically published every time you push to the master branch.
-* https://pages.github.com/
+
+* [Pages](https://pages.github.com)
 
 The Blogging Platform is Jekyll:
-* http://jekyllrb.com/docs/structure/
-* Tutorial: http://jmcglone.com/guides/github-pages/
+
+* [Jekyll](http://jekyllrb.com/docs/structure)
+* Tutorial: (http://jmcglone.com/guides/github-pages)
 
 
