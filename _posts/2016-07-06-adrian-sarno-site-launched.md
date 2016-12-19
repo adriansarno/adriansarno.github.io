@@ -4,5 +4,16 @@ title: "Site Created"
 date: 2016-07-06
 ---
 
-Finally got around to putting this old website together. 
-Published with [Jekyll](http://jekyllrb.com) using Markdown. 
+Finally got around learning some platform to publish a blog, these are the components.
+
+The hosting is provided by Github.
+
+The Deployment Automation tool is called Github Pages.
+The site is automatically published every time you push to the master branch.
+* https://pages.github.com/
+
+The Blogging Platform is Jekyll:
+* http://jekyllrb.com/docs/structure/
+* Tutorial: http://jmcglone.com/guides/github-pages/
+
+
