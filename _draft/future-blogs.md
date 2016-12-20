@@ -33,6 +33,9 @@ date: 2016-12-17
 3. **Image**
 4. **Genomics**
 5. **RL**
+    1. Sutton-Barto
+        2. Bandits
+        3. 
 6. **Finance**
 7. **Cybersecurity**
 8. **Insurance**
