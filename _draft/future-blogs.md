@@ -54,15 +54,18 @@ This is a collection of the models that I have applied to some of the popular pr
                 4. mongodb
                 5. aws
                 6. heroku
+                7. Data-gathering
+                    1. APIs
         6. Visualizations
             1. Seaborn
             2. Mathplotlib
         7. Storytelling and Publication
             1. Blog posts
-            2. Video
-            3. Paper (for arxiv)
+            2. Videos
+            3. Papers (for arxiv)
             4. Social posts
             5. Kaggle Competitions
+            6. Conference Talks/Tutorials
     2. Classification
         1. Business Application Example (unbalanced classes)
             1. Targeted Marketing Campaign to Online Consumers with Display Advertisement
@@ -108,6 +111,9 @@ This is a collection of the models that I have applied to some of the popular pr
                 4. mongodb
                 5. aws
                 6. heroku
+                7. Data-gathering
+                    1. APIs
+                        1. Quandl (user: AS, pass R1E, API key jyyx_x2yAAVTpDX4fx5_)
         6. Visualizations
             1. Seaborn
             2. Mathplotlib
@@ -121,7 +127,8 @@ This is a collection of the models that I have applied to some of the popular pr
 3. **Image** (source: Data Institute course)
 4. **Genomics** (source: coursera curse)
 5. **Neuroscience** (source: coursera curse)
-6. **Finance**
+6. **FinTech**
+    1. BitCoin
 7. **Cybersecurity**
 8. **Insurance**
 9. **Medical Diagnostic**
@@ -152,5 +159,24 @@ Tour my skill set through the filter of some popular job profiles.
 1. **ML Algorithm Developer**
 2. **ML App Architect**
 3. **Data Scientist** (source: book Data Science for Business)
+    1. Interview Questions
+        1. Statistics
 4. **Business Analyst** (source: coursera specialization)
 5. **Marketing Analyst** (source: coursera specialization)
+6. **Computer Scientist** (source: hacker rank, geeksforgeeks, meetups)
+    1. Interview Questions
+        1. Graph Algorithms
+
+## Startup
+1. Services (via platform)
+    1. guru.com
+2. Business Plans
+3. Assets
+    1. Patents
+4. Community
+    1. Open Source Projects
+        1. Using OS Licenses
+    2. Mentoring (Coursera)
+        1. Courses Tought
+        2. Meetup Groups moderated
+
