@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adrian Sarno — ML Engineer / Research ML</title>
+    <meta
+      name="description"
+      content="Adrian Sarno — ML Engineer / Research ML. End-to-end ML systems: data pipelines, forecasting, LLMs, evaluation, deployment on GCP."
+    />
+    <meta name="theme-color" content="#0b0f14" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg"></div>
+
+    <header class="container">
+      <nav class="nav">
+        <a class="brand" href="#">
+          <span class="dot"></span>
+          <span>Adrian Sarno</span>
+        </a>
+        <div class="navlinks">
+          <a href="#projects">Projects</a>
+          <a href="#stack">Stack</a>
+          <a href="#writing">Writing</a>
+          <a href="#contact">Contact</a>
+          <a class="btn" href="https://github.com/adriansarno" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="hero-left">
+          <p class="kicker">ML Engineer · Research ML</p>
+          <h1>End-to-end ML systems, from data to deployment.</h1>
+          <p class="sub">
+            I build production-grade ML and AI applications: acquisition pipelines, model training/fine-tuning,
+            evaluation, deployment (Cloud Run / GKE), and monitoring.
+          </p>
+
+          <div class="cta">
+            <a class="btn primary" href="#projects">View projects</a>
+            <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+
+          <div class="badges">
+            <span class="pill">GCP · Cloud Run · GKE</span>
+            <span class="pill">Python · SQL · PyTorch</span>
+            <span class="pill">W&B · CI/CD</span>
+            <span class="pill">LLMs · RAG · Forecasting</span>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="card">
+            <div class="card-head">
+              <div class="card-title">Now building</div>
+              <div class="chip">2026</div>
+            </div>
+            <p class="card-body">
+              A portfolio of 12 cloud-native AI applications on GCP with containerized pipelines:
+              acquisition → training/fine-tuning → inference → API → React UI.
+            </p>
+
+            <div class="card-grid">
+              <div class="mini">
+                <div class="mini-top">Focus</div>
+                <div class="mini-main">Production ML</div>
+                <div class="mini-sub">infra + evaluation</div>
+              </div>
+              <div class="mini">
+                <div class="mini-top">Strength</div>
+                <div class="mini-main">Forecasting</div>
+                <div class="mini-sub">ops impact</div>
+              </div>
+              <div class="mini">
+                <div class="mini-top">Systems</div>
+                <div class="mini-main">Cloud Run</div>
+                <div class="mini-sub">fast iteration</div>
+              </div>
+              <div class="mini">
+                <div class="mini-top">Scale</div>
+                <div class="mini-main">GKE</div>
+                <div class="mini-sub">heavy jobs</div>
+              </div>
+            </div>
+
+            <div class="card-actions">
+              <a class="btn small" href="https://github.com/adriansarno" target="_blank" rel="noreferrer">See code</a>
+              <a class="btn small ghost" href="#contact">Contact</a>
+            </div>
+          </div>
+
+          <div class="status">
+            <span class="ping"></span>
+            <span id="statusText">Available for ML Engineer / Research ML roles</span>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main class="container">
+      <section id="projects" class="section">
+        <div class="section-head">
+          <h2>Featured projects</h2>
+          <!-- <p>Small number, high quality. Each is designed to demonstrate end-to-end ownership.</p> -->
+        </div>
+
+        <div class="grid" id="projectsGrid">
+          <!-- Filled by app.js -->
+        </div>
+
+        <!-- <div class="note">
+          <strong>Tip:</strong> Pin the same projects on GitHub for consistent recruiter signal.
+        </div> -->
+      </section>
+
+      <section id="stack" class="section">
+        <div class="section-head">
+          <h2>Stack</h2>
+          <p>Cloud-native ML with reproducible experiments and fast iteration.</p>
+        </div>
+
+        <div class="stack">
+          <div class="stack-col">
+            <h3>Cloud & Infra</h3>
+            <ul>
+              <li>GCP: Cloud Run, GKE, GCS, BigQuery, Pub/Sub, Secret Manager</li>
+              <li>Infrastructure as code: Pulumi</li>
+              <li>Containers: Docker · Kubernetes</li>
+            </ul>
+          </div>
+          <div class="stack-col">
+            <h3>ML & Data</h3>
+            <ul>
+              <li>Python · SQL · Pandas</li>
+              <li>PyTorch · scikit-learn · XGBoost</li>
+              <li>Time series: Prophet/SARIMA-style baselines + modern ML</li>
+              <li>Tracking: Weights & Biases</li>
+            </ul>
+          </div>
+          <div class="stack-col">
+            <h3>LLMs</h3>
+            <ul>
+              <li>OpenAI / Gemini / DeepSeek</li>
+              <li>RAG, evaluation harnesses, guardrails</li>
+              <li>APIs: FastAPI</li>
+              <li>UI: React</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="writing" class="section">
+        <!-- <div class="section-head">
+          <h2>Writing</h2>
+          <p>Optional — add links as you publish. Keep it lightweight.</p>
+        </div> -->
+
+        <div class="writing">
+          <a class="row" href="#" aria-disabled="true">
+            <div>
+              <div class="row-title">How I evaluate forecasting models in production</div>
+              <div class="row-sub">Backtesting, time splits, error analysis, and business metrics</div>
+            </div>
+            <span class="row-tag">coming soon</span>
+          </a>
+
+          <a class="row" href="#" aria-disabled="true">
+            <div>
+              <div class="row-title">RAG that survives real users</div>
+              <div class="row-sub">Grounding, citations, feedback loops, and drift monitoring</div>
+            </div>
+            <span class="row-tag">coming soon</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Fastest way to reach me: email. Also happy to connect on LinkedIn.</p>
+        </div>
+
+        <div class="contact">
+          <a class="btn primary" href="mailto:adrian@sarno.ai">Email</a>
+          <a class="btn ghost" href="https://github.com/adriansarno" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn ghost" href="https://www.linkedin.com/adriansarno" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn ghost" href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        </div>
+
+        <p class="footer">
+          © <span id="year"></span> Adrian Sarno
+        </p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
