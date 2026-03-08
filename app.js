@@ -2,7 +2,7 @@ const portfolio_projects = [
 
     {
       title: "LLM Systems (RAG + Evaluation)",
-      tag: "llm",
+      tag: "production",
       desc: "Retrieval, grounding, evaluation harnesses, and guardrails for real users.",
       links: [{ label: "Repo", href: "https://github.com/adriansarno/support-copilot" }]
     }
