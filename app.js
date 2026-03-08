@@ -8,13 +8,13 @@ const portfolio_projects = [
               ,{ label: "Live Demo", href: "https://support-copilot-ui-pmbduk6nhq-uc.a.run.app/ }
              ]
     }
-    ,{
-      title: "LedgerLens: Invoice intelligence",
-      tag: "comming soon",
-      desc: "Line-item extraction, validation.",
-      links: [
-             ]
-    }
+    // ,{
+    //   title: "LedgerLens: Invoice intelligence",
+    //   tag: "comming soon",
+    //   desc: "Line-item extraction, validation.",
+    //   links: [
+    //          ]
+    // }
     // ,{
     //   title: "Forecasting & Optimization",
     //   tag: "time series",
