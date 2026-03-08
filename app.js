@@ -4,9 +4,10 @@ const portfolio_projects = [
       title: "Support Copilot",
       tag: "production",
       desc: "RAG + Evaluation. LLM grounding, citations and guardrails.",
-      links: [{ label: "Repo", href: "https://github.com/adriansarno/support-copilot" }
-              ,{ label: "Live Demo", href: "https://support-copilot-ui-pmbduk6nhq-uc.a.run.app", primary: true}
-             ]
+      links: [
+          { label: "Live Demo", href: "https://support-copilot-ui-pmbduk6nhq-uc.a.run.app", primary: true}
+          ,{ label: "Repo", href: "https://github.com/adriansarno/support-copilot" }
+        ]
     }
     ,{
       title: "LedgerLens: Invoice intelligence",
