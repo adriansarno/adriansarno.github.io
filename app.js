@@ -1,25 +1,45 @@
-const projects = [
+const portfolio_projects = [
+
+    {
+      title: "LLM Systems (RAG + Evaluation)",
+      tag: "llm",
+      desc: "Retrieval, grounding, evaluation harnesses, and guardrails for real users.",
+      links: [{ label: "Repo", href: "https://github.com/adriansarno/support-copilot" }]
+    }
+    // ,{
+    //   title: "Forecasting & Optimization",
+    //   tag: "time series",
+    //   desc: "Forecasting baselines + ML models with time-based validation and error analysis.",
+    //   links: [{ label: "Repo", href: "https://github.com/adriansarno" }]
+    // }
+    // ,{
+    //   title: "Cloud ML Infra (GCP + Pulumi)",
+    //   tag: "infra",
+    //   desc: "Infrastructure-as-code patterns for deploying ML services and pipelines.",
+    //   links: [{ label: "Repo", href: "https://github.com/adriansarno" }]
+    // }
+  ];
+
+const colaboration_projects = [
+
     {
       title: "Dosewise (Medical AI System)",
       tag: "production",
       desc: "End-to-end ML pipeline + deployment: data ingestion → training → inference → API → UI.",
       links: [
-        { label: "Repo", href: "https://github.com/adriansarno/ac215-dosewise" },
-        { label: "Demo", href: "https://github.com/adriansarno/ac215-dosewise#demo" }
+        { label: "Repo", href: "https://github.com/ac215-dosewise/ac215-project" },
       ]
-    },
-    {
-      title: "Forecasting & Optimization",
-      tag: "time series",
-      desc: "Forecasting baselines + ML models with time-based validation and error analysis.",
-      links: [{ label: "Repo", href: "https://github.com/adriansarno" }]
-    },
-    {
-      title: "LLM Systems (RAG + Evaluation)",
-      tag: "llm",
-      desc: "Retrieval, grounding, evaluation harnesses, and guardrails for real users.",
-      links: [{ label: "Repo", href: "https://github.com/adriansarno" }]
-    },
+    }
+    // ,{
+    //   title: "EEG Imagined Speech",
+    //   tag: "time series",
+    //   desc: "Imagined speech EEG signal classification.",
+    //   links: [{ label: "Repo", href: "https://github.com/adriansarno" }]
+    // }
+  ];
+
+
+const research_projects = [
     {
       title: "Kalman Filtering",
       tag: "research",
@@ -31,17 +51,11 @@ const projects = [
       tag: "research",
       desc: "Key RL algorithms implemented and compared, with reproducible experiments.",
       links: [{ label: "Repo", href: "https://github.com/adriansarno/sutton-barto" }]
-    },
-    {
-      title: "Cloud ML Infra (GCP + Pulumi)",
-      tag: "infra",
-      desc: "Infrastructure-as-code patterns for deploying ML services and pipelines.",
-      links: [{ label: "Repo", href: "https://github.com/adriansarno" }]
     }
-  ];
+];
   
-  function renderProjects() {
-    const grid = document.getElementById("projectsGrid");
+  function renderProjects(projects, target_grid) {
+    const grid = document.getElementById(target_grid);
     grid.innerHTML = "";
     projects.forEach((p) => {
       const card = document.createElement("div");
@@ -70,5 +84,7 @@ const projects = [
     if (y) y.textContent = new Date().getFullYear();
   }
   
-  renderProjects();
+  renderProjects(portfolio_projects, "portfolioProjectsGrid");
+  renderProjects(colaboration_projects, "colaborationProjectsGrid");
+  renderProjects(research_projects, "researchProjectsGrid");
   setYear();
