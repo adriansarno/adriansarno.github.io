@@ -79,9 +79,12 @@ const research_projects = [
           ${p.links
             .map(
               (l) =>
-                `<a class="${l.primary ? "demo-link" : ""}" href="${l.href}" target="_blank" rel="noreferrer">
-                  ↗ ${l.label}
-                </a>`
+                `<a class="${l.primary ? "demo-link" : ""}" 
+                    href="${l.href}" 
+                    target="_blank" 
+                    rel="noreferrer">
+                    ${l.primary ? "🚀 " : "↗ "} ${l.label}
+                 </a>`
             )
             .join("")}
         </div>
