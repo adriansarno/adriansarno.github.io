@@ -1,10 +1,19 @@
 const portfolio_projects = [
 
     {
-      title: "LLM Systems (RAG + Evaluation)",
+      title: "Support Copilot",
       tag: "production",
-      desc: "Retrieval, grounding, evaluation harnesses, and guardrails for real users.",
-      links: [{ label: "Repo", href: "https://github.com/adriansarno/support-copilot" }]
+      desc: "RAG + Evaluation. LLM grounding, citations and guardrails.",
+      links: [{ label: "Repo", href: "https://github.com/adriansarno/support-copilot" }
+              ,{ label: "Live Demo", href: "https://support-copilot-ui-pmbduk6nhq-uc.a.run.app/ }
+             ]
+    }
+    ,{
+      title: "LedgerLens: Invoice intelligence",
+      tag: "comming soon",
+      desc: "Line-item extraction, validation.",
+      links: [
+             ]
     }
     // ,{
     //   title: "Forecasting & Optimization",
