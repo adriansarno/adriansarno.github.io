@@ -5,7 +5,7 @@ const portfolio_projects = [
       tag: "production",
       desc: "RAG + Evaluation. LLM grounding, citations and guardrails.",
       links: [{ label: "Repo", href: "https://github.com/adriansarno/support-copilot" }
-              ,{ label: "Live Demo", href: "https://support-copilot-ui-pmbduk6nhq-uc.a.run.app/ }
+              ,{ label: "Live Demo", href: "https://support-copilot-ui-pmbduk6nhq-uc.a.run.app" }
              ]
     }
     // ,{
